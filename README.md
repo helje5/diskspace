@@ -1,6 +1,6 @@
 # diskspace
 
-![](https://img.shields.io/github/v/release/helje5/diskspace)&nbsp;![](https://img.shields.io/github/downloads/helje5/diskspace/latest/total)&nbsp;![](https://img.shields.io/badge/macOS-10.14%2B-success)&nbsp;![](https://img.shields.io/github/license/helje5/diskspace)
+> Fork of [scriptingosx/diskspace](https://github.com/scriptingosx/diskspace)
 
 Returns available disk space
 
