@@ -1,6 +1,6 @@
 # diskspace
 
-![](https://img.shields.io/github/v/release/scriptingosx/diskspace)&nbsp;![](https://img.shields.io/github/downloads/scriptingosx/diskspace/latest/total)&nbsp;![](https://img.shields.io/badge/macOS-10.14%2B-success)&nbsp;![](https://img.shields.io/github/license/scriptingosx/diskspace)
+![](https://img.shields.io/github/v/release/helje5/diskspace)&nbsp;![](https://img.shields.io/github/downloads/helje5/diskspace/latest/total)&nbsp;![](https://img.shields.io/badge/macOS-10.14%2B-success)&nbsp;![](https://img.shields.io/github/license/helje5/diskspace)
 
 Returns available disk space
 
@@ -28,4 +28,18 @@ OPTIONS:
   -t, --total             Print only the value of the Total Capacity
   --version               Show the version.
   -h, --help              Show help information.
-  ```
+```
+
+## Installation using swift-sh
+
+This fork of `diskspace` includes the necessary annotations for
+[swift-sh](https://github.com/mxcl/swift-sh).
+I.e. the script can execute directly.
+
+To install it just copy the main.swift to your desired location, e.g.:
+```
+cp diskspace/main.swift /usr/local/bin/diskspace
+```
+
+[swift-sh](https://github.com/mxcl/swift-sh) can be installed using a
+simple `brew install mxcl/made/swift-sh`.
